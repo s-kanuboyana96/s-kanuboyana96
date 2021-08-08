@@ -1,0 +1,205 @@
+!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="view port" content="width=device-width ,intial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="x-UA-compitable" content="IE=edge , chrome=1">
+    <meta name="Hand held friendly" content="true">
+    <title>Hershy Technology</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="nav-wrapper">
+      <nav>
+        <ul class="nav-list">
+          <img id="icon" src="download-1.jpg" width="70">
+          <li class="nav-item"> <a href="index.html">Account</a></li>
+            <li> <a href="#">Logout</a></li>
+        </ul>
+      </nav>
+
+    </div>
+
+
+
+    <div class="employees">
+      <h1>Employees</h1>
+      <div class="employee-list">
+        <li>
+        <div class="employee-card" id="employee1">
+          <img src="images-2.jpg" width="50">
+          <span>
+            <div class="employment-details" id="employee1-details">
+<span class="name-format">Jessica</span>
+<span class="name-format">jessy</span>
+<br>
+<span>Developer</span>
+<br>
+<span>hershytech@gmail.com</span>
+<br>
+<span>$50000</span>
+
+            </div>
+          </span>
+        </div>
+      </li>
+
+<div class="employee-list">
+    <li>
+        <div class="employee-card" id="employee1">
+          <img src="images-3.jpg" width="50">
+          <span>
+               <div class="employment-details" id="employee1-details">
+                 <span class="name-format">Richard</span>
+                 <span class="name-format">robin</span>
+                 <br>
+                 <span>Head of Marketing</span>
+                 <br>
+                 <span> hershytech@gmail.com</span>
+                 <br>
+                 <span>$25000</span>
+
+               </div>
+
+          </span>
+
+        </div>
+    </li>
+
+
+        <div class="employee-list">
+    <li>
+        <div class="employee-card" id="employee1">
+          <img src="images-3.jpg" width="50">
+          <span>
+               <div class="employment-details" id="employee1-details">
+                 <span class="name-format">wyan</span>
+                 <span class="name-format">ruchard</span>
+                 <br>
+                 <span>CEO</span>
+                 <br>
+                 <span> hershytech@gmail.com</span>
+                 <br>
+                 <span>$85000</span>
+
+               </div>
+
+          </span>
+
+        </div>
+
+    </li>
+
+  <div class="Interviews">
+      <h2>Up coming Interviews</h2>
+
+      <li>
+
+  <div class="list-items">
+          <div class="list-item">
+            <h2>Marketing</h2>
+            <p>Social media content</p>
+            <button class="Accept-button" type="button" name="button">Accept</button>
+            <button class="Reject-button" type="button" name="button">Reject</button>
+
+          </div>
+
+
+
+      </li>
+
+      <li>
+            <div class="list-items">
+              <h3>Business Analyst</h3>
+              <p>Financial Analyst</p>
+              <button class="Accept-button" type="button" name="button">Accept</button>
+              <button class="Reject-button" type="button" name="button">Reject</button>
+
+            </div>
+      </li>
+    </div>
+
+      <!-- MODAL -->
+      <div id="employeeModal" class="Modal">
+        <div class="Modal-content">
+          <header class="Modal-header">
+            <!-- <span onclick="document.getElementId('quotemodal').style-display='none' class="w3-button" w3-display-topright">X</span> -->
+            <div class="Modal-header-content">
+              <span>Add Employee</span>
+
+
+          </div>
+          </header>
+
+
+
+               <div class="Modal-container">
+                 <label for="fname">First Name</label>
+                 <input type="text" id="name">
+                 <br>
+                 <label for="fname">Last Name</label>
+                 <input id="surname" type="text" >
+                 <br>
+                 <label for="fname">Position</label>
+                 <input id="Position" type="text">
+                 <br>
+                 <label for="fname">Department</label>
+                 <input id="Department" type="text">
+                 <br>
+                 <label for="fname">Email</label>
+                 <input id="Email" type="text">
+                 <br>
+                 <label for="fname">Salary</label>
+                 <input id="Salary" type="text" >
+                 <br>
+                 <button id="confirm-button" type="button" name="button" onclick="Add Employee">Confirm</button>
+
+               </div>
+
+        </div>
+
+        <footer class="Modal-footer">
+
+        </footer>
+
+      </div>
+
+      <!-- INTERVIEW MODAL -->
+
+      <div id="InterviewModal" class="Modal">
+        <div class="Modal-content">
+          <header class="Modal-header">
+            <!-- <span onclick="document.getElementId('quotemodal').style-display='none' class="w3-button" w3-display-topright">X</span> -->
+            <div class="Modal-header-content">
+              <span>Add Interviews</span>
+
+            </div>
+
+          </header>
+
+          <div class="Modal-container">
+            <label for="fname">Department</label>
+            <input type="text" id="int-Department">
+            <br>
+            <label for="fname">Position</label>
+            <input id="int-Position" type="text">
+<br>
+            <button id="confirmIntbutton" type="button" name="button" onclick="Add Employee">Confirm</button>
+
+
+          </div>
+
+        </div>
+
+        <footer class="Modal-footer">
+
+        </footer>
+
+
+        <button class="button" type="button" name="button" onclick="showAddIntModal()">Add Interview</button>
+        <button class="button" type="button" name="button" onclick="showAddEmpModal()">Add Interview</button>
+
+    </div>
+
+  </body>
+</html>
