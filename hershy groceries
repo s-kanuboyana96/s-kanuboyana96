@@ -1,0 +1,109 @@
+!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hershies Groceries</title>
+
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div class="nav-wrapper">
+      <nav>
+
+      <ul class="nav-list">
+        <li class="nav-list"> <a href="index.html">Home</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Order Online</a></li>
+        <li><a href="#">About Us</a></li>
+
+      </ul>
+
+    </nav>
+    <div class="image-holder">
+      <img id="backgrond-image" src="images2.jpg" width="100%">
+      <h1 id="caption-1"> Groceries Done Order Online</h1>
+
+    </div>
+
+
+    <h2>Popular Categories</h2>
+    <hr width="1300">
+
+
+
+<div class="featured-wrapper">
+      <div class="product-container">
+        <p class="cat-text">Dairy product</p>
+        <img src="dairy-products.jpg" alt="" >
+        <div class="button-container">
+        <button  class="View more button"type="button" name="button">View more</button>
+
+        </div>
+<div class="featured-wrapper">
+          <div class="product-container">
+            <p class="cat-text">Veg-Nonveg</p>
+            <img src="veg-nonveg.jpg" alt="" >
+            <div class="button-container">
+            <button class="View more " button type="button" name="button">View more</button>
+          </div>
+
+  <div class="featured-wrapper">
+            <div class="product-container">
+              <p class="cat-text">Cold-meat</p>
+              <img src="cold-meat.jpg" alt="" >
+              <div class="button-container">
+              <button class="View more " button type="button" name="button">View more</button>
+     </div>
+</div>
+        </div>
+
+
+
+        <div id="social-media-container">
+        </div>
+
+        <div class="twitter-container">
+          <img src="twitter-icon.png" width="50px" >
+     </div>
+     <div class="instagram-container">
+        <img src="instagram-icon.png" width="70px">
+
+     </div>
+     <div class="facebook-container">
+       <img src="facebook-logo.png" width="50%">
+
+     </div>
+     <div class="form-container">
+       <div class="form-head-container">
+         <img src="email-icon.png" width="30px">
+         <p id="contact us label">contact Us</p>
+
+       </div>
+       <form  action="" >
+         <label class="form item" for="first name">First Name</label>
+         <input type="text" name="First Name" placeholder="Enter Your Name">
+         <br><br>
+
+         <label class="form item" for="second name">Second Name</label>
+         <input type="text" name="First Name" placeholder="Enter Your Name">
+         <br><br>
+         <label class="form item" for="subject">Subject</label>
+         <textarea id="subject" name="Subject" placeholder="Enter Your subject"></textarea>
+         <br>
+         <input type="button" name="submit-button" value="submit">
+
+       </form>
+
+     </div>
+
+      </div>
+
+    </div>
+
+  </body>
+
+  <script type="text/javascript">
+    alert("Welcome to The Hershy Groceries")
+
+  </script>
+</html>
