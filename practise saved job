@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Saved job</title>
+    <link rel="stylesheet" href="stylesheet2.css">
+      <script type="script.js">
+
+      </script>
+  </head>
+  <body>
+    <div class="nav-wrapper">
+      <ul class="nav-list">
+        <li><a href="#"> <img src="images1.png" width="50%"></a></li>
+        <li><a href="join talent network.html"> <img src="email-icon.png" width="30"> Join Our Talent Network</a></li>
+        <li><a href="#"> <img src="download1.png" width="30">Saved Job</a></li>
+        </ul>
+      </div>
+
+
+      <div class="featured-wrapper">
+        <ul class="nav-list">
+        <li>
+      <li>  <a href="#">Careers</a></li>
+        <li><td><a href="#">Life at Dell</a></td></li>
+         <td>
+             <select class>
+               <optgroup>
+               <a href="#"><option value="">How We Work and Lead</option></a>
+                 <option>Who We Are</option>
+                 <option>How We Hire</option>
+                 <option>FAQs</option>
+
+               </optgroup>
+
+             </select>
+
+
+         </td>
+         <br><br>
+         <td><a href="#">Working at Dell</a></td>
+          <td>
+              <select class>
+                <optgroup>
+                  <option>Why Work Here</option>
+                  <option>Who We Are</option>
+                  <option>How We Hire</option>
+                  <option>FAQs</option>
+
+                </optgroup>
+
+              </select>
+              <td><a href="#">Our Oppurtunity</a></td>
+               <td>
+                   <select class>
+                     <optgroup>
+                       <option>Why Work Here</option>
+                       <option>Who We Are</option>
+                       <option>How We Hire</option>
+                       <option>FAQs</option>
+
+                     </optgroup>
+
+                   </select>
+      <ul>
+      </div>
+
+        <div class="background-image">
+          <img id="background-image" src="images dell.jpg" width="100%">
+        </div>
+        <hr class="line-container"width="100">
+     <div class="head-container"
+        <h1 id="caption-1">We could be your <br>
+
+               perfect match.</h1>
+
+        </div>
+
+
+        <div class="wrapper-container">
+          <ul class="wrap-list">
+          <p>Keyword</p>
+          <input type="text" name="Keyword" placeholder="Try 'Remote' ">
+          <p>Location</p>
+          <input type="text" name="Location" placeholder="City ,State ,Zip ">
+          <button id="Search-button" type="button" name="button">Search Job</button>
+
+          <button id="military search-button" type="button" name="button">Military Search Tool</button>
+          </ul>
+          </div>
+
+          <br>
+          <div class="para-class">
+            <strong><p>Your Saved Jobs</strong>
+            </div>
+
+            <p>you have no saved Jobs</p>
+            <br>
+            <br>
+            <hr width="1300">
+            <br><br>
+            <div class="class-list">
+              <ul class="class-list">
+                <li>  <a href="#">FEATURED JOBS</a> </li>
+
+                <li>  <a href="#">RECENTLY VIEWED JOBS</a> </li>
+                <li>  <a href="#">SAVED JOBS</a> </li>
+              </ul>
+
+            </div>
+
+
+            <div class="saved-list">
+              <ul class="saved-list">
+                <li>  <a href="#">Dell Boomi Technical Architect/Sr.Consultant -<br> Boomi GTO PS India</a>  Bengaluru, India <br>
+  08/16/2021
+ </li>
+
+
+               <li>  <a href="#">EMEA Sales Enablement Senior <br> Advisor</a>  Bengaluru, India <br>
+ 08/16/2021
+ </li>
+
+                 <li>  <a href="#">Technical Staff - Solution Architect <br>Remote US</a>  Bengaluru, India <br>
+   08/16/2021
+ </li>
+
+
+              </ul>
+
+            </div>
+            <br>
+            <br>
+
+              <hr width="1300">
+
+
+              <div class="image-list">
+                <div class="image-container">
+                  <img src="thumb-74621-332202.jpg" alt=""><br>
+                  <div image-button-container>
+                  <button class="image-button-container" type="button" name=""><a href="#">FREQUENTLY ASKED QUESTION</a><br><br><a href="#">READ MORE</a></button>
+                  <br>
+
+                </div>
+
+                </div>
+                <div class="image-container">
+                  <img src="thumb-74621-332204.jpg" alt=""><br>
+                    <button class="image-button-container" type="button" name=""><a href="#">
+DIVERSITY AT DELL CAREERS</a><br><br><a href="#">READ MORE</a></button>
+                  <br>
+
+              </div>
+              <div class="image-container">
+                <img src="thumb-74621-332211.jpg" ><br>
+                  <button class="image-button-container" type="button" name=""><a href="#">
+Military and Veterans</a><br><br><a href="#">READ MORE</a></button>
+                <br>
+               <br>
+
+
+                </div>
+
+
+  </div>
+
+      <div class="glass-image-container">
+        <img src="glass image.jpg" width="100%" height="100%">
+      </div>
+
+
+
+  <div class="wrapper">
+        <div class="icon facebook">
+            <div class="tooltip">Facebook</div>
+            <span>    <img src="7407886901556105704-128.png" width="60"> <i class="fab fa-facebook-f"></i></span>
+        </div>
+        <div class="icon twitter">
+            <div class="tooltip">Twitter</div>
+            <span>   <img src="11776157001556105726-128.png" width="60"><i class="fab fa-twitter"></i></span>
+        </div>
+        <div class="icon instagram">
+            <div class="tooltip">Instagram</div>
+            <span>  <img src="20087062091556105709-128.png" width="60"><i class="fab fa-instagram"></i></span>
+        </div>
+        <div class="icon github">
+            <div class="tooltip">Github</div>
+            <span>  <img src="18282280761580802960-128.png" width="60"><i class="fab fa-github"></i></span>
+        </div>
+        <div class="icon linkedin">
+            <div class="tooltip">LinkedIn</div>
+            <span>  <img src="541526511556105711-128.png" width="60"><i class="fab fa-linkedin"></i></span>
+
+</div>
+    </div>
+
+      <div class="tab-list">
+        <div class="tab list">
+          <ul class="tab list">
+          <a href="#">Our Offerings</a>
+          <br>
+          <br>
+           <a href="#">Digital Future</a>
+          <br><br>
+          <a href="#">Products</a>
+          <br><br>
+           <a href="#">Solutions</a>
+          <br><br>
+          <a href="#">Dell Technologies on Demand</a>
+         <br><br>
+            <a href="#">Flexible Consumption Modes</a>
+            <br><br>
+                <a href="#">Dell Premier Solutions</a>
+                <br><br>
+                    <a href="#">Customer Engagement</a>
+                    <br><br>
+                        <a href="#">Products Community</a>
+                        <br><br>
+                             <a href="#">Software Downloads</a>
+                            <br><br>
+                               <a href="#">Learning Center</a>
+                              <br><br>
+                            </ul>
+        </div>
+        <div class="product-list">
+
+            <ul class="product-list">
+            <a href="#">MyService360</a>
+            <br><br>
+                <a href="#">Product Support</a>
+            <br><br>
+                 <a href="#">Drives & Downloads</a>
+            <br><br>
+                     <a href="#">Community</a>
+            <br><br>
+                      <a href="#">Contact Technical support</a>
+
+
+
+      </div>
+
+        </div>
+
+        <style media="screen">
+        body{
+          margin: auto;
+        }
+        
+        .nav-wrapper{
+          background-color:#000080;
+          padding: 1px;
+          width: 100%;
+          position: sticky;
+          top: 0;
+          z-index: 1;
+        }
+        .nav-list{
+          background-color:#FCFBFC;
+          padding: 1px;
+          width: 100%;
+          position: sticky;
+          top: 0;
+          z-index: 1;
+        list-style-type: none;
+        padding:5px;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-around;
+        
+        }
+        
+        .featured-wrapper{
+          background-color:#FCFBFC;
+        list-style-type: none;
+        padding:5px;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-around;
+        }
+        
+        
+        .button-container{
+          background-color:#0000FF;
+          border: none;
+          color: white;
+          padding: 7px 12px;
+          float: left;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          border-radius: 5px;
+        }
+        
+        .military-button{
+          background-color:#000080;
+          border: none;
+          color: white;
+          padding: 7px 12px;
+          text-align: center;
+          float: right;
+          text-decoration: none;
+          display: inline-block;
+          cursor: pointer;
+          border-radius: 5px;
+        }
+        
+        #caption-1{
+          position:absolute;
+          top:40%;
+          left:15%;
+          color: white;
+          font-size: 4vw;
+        }
+        
+        
+        .wrap-list{
+          background-color:	#3289ff;
+          padding:5px;
+          width: 100%;
+          display: flex;
+          align-items: stretch;
+          position: sticky;
+          top: 0;
+          z-index: 1;
+          justify-content: space-around;
+        
+        }
+        
+        .para-class{
+          text-align: center;
+          font-size: 2vw;
+        }
+        
+        .class-list{
+          background-color:#FCFBFC;
+        list-style-type: none;
+        padding:5px;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-around;
+        font-size: 1.5vw;
+        color: 	#3289ff;
+        padding: 1px;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        }
+        
+        .saved-list{
+        background-color:#FCFBFC;
+        list-style-type: none;
+        padding:5px;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-around;
+        
+        padding: 1px;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        }
+        
+        .image-list{
+          background-color:#FCFBFC
+          list-style-type: none;
+          padding:5px;
+          display: flex;
+          align-items: stretch;
+          justify-content: space-around;
+          font-size: 1.5vw;
+          top: 0;
+          z-index: 1;
+        
+        }
+        
+        .image-button-container{
+          font-size: 1.5vw;
+          text-align: center;
+          align-items: center;
+          font-family: sans-serif;
+          font-display: white;
+          color: white;
+          text-decoration: none;
+          list-style:none;
+          background-color:#ffe6e6;
+        padding-top: 1px;
+        }
+        
+        
+        @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+        
+        *:focus,
+        *:active {
+            outline: none !important;
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        
+        
+        .wrapper {
+            display: inline-flex;
+        }
+        
+        .wrapper .icon {
+            position: relative;
+            background-color: #f3f3f3;
+            border-radius: 50%;
+            padding: 15px;
+            margin: 10px;
+            width: 50px;
+            height: 50px;
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            box-shadow: 0 10px 19px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+        
+        .wrapper .tooltip {
+            position: absolute;
+            top: 0;
+            font-size: 14px;
+            background-color: #ffffff;
+            color: #ffffff;
+            padding: 5px 8px;
+            border-radius: 5px;
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+        
+        .wrapper .tooltip::before {
+            position: absolute;
+            content: "";
+            height: 8px;
+            width: 8px;
+            background-color: #ffffff;
+            bottom: -3px;
+            left: 50%;
+            transform: translate(-50%) rotate(45deg);
+            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+        
+        .wrapper .icon:hover .tooltip {
+            top: -45px;
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+        }
+        
+        .wrapper .icon:hover span,
+        .wrapper .icon:hover .tooltip {
+            text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+        }
+        
+        .wrapper .facebook:hover,
+        .wrapper .facebook:hover .tooltip,
+        .wrapper .facebook:hover .tooltip::before {
+            background-color: #3b5999;
+            color: #ffffff;
+        }
+        
+        .wrapper .twitter:hover,
+        .wrapper .twitter:hover .tooltip,
+        .wrapper .twitter:hover .tooltip::before {
+            background-color: #46c1f6;
+            color: #ffffff;
+        }
+        
+        .wrapper .instagram:hover,
+        .wrapper .instagram:hover .tooltip,
+        .wrapper .instagram:hover .tooltip::before {
+            background-color: #e1306c;
+            color: #ffffff;
+        }
+        
+        .wrapper .github:hover,
+        .wrapper .github:hover .tooltip,
+        .wrapper .github:hover .tooltip::before {
+            background-color: #333333;
+            color: #ffffff;
+        }
+        
+        .wrapper .linkedin:hover,
+        .wrapper .linkedin:hover .tooltip,
+        .wrapper .linkedin:hover .tooltip::before {
+            background-color: #0077b5;
+            color: #ffffff;
+        }
+        
+        .wrapper .youtube:hover,
+        .wrapper .youtube:hover .tooltip,
+        .wrapper .youtube:hover .tooltip::before {
+            background-color: #de463b;
+            color: #ffffff;
+        }
+        
+        .wrapper .whatsapp:hover,
+        .wrapper .whatsapp:hover .tooltip,
+        .wrapper .whatsapp:hover .tooltip::before {
+            background-color: #25D366;
+            color: #ffffff;
+        }
+        
+        @media screen and (max-width: 991px) {
+            .wrapper .icon {
+                position: relative;
+                background-color: #f3f3f3;
+                border-radius: 50%;
+                padding: 15px;
+                margin: 7px;
+                width: 35px;
+                height: 35px;
+                font-size: 14px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                box-shadow: 0 10px 19px rgba(0, 0, 0, 0.1);
+                cursor: pointer;
+                transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            }
+            .wrapper .tooltip {
+                position: absolute;
+                top: 0;
+                font-size: 12px;
+                background-color: #ffffff;
+                color: #ffffff;
+                padding: 2.5px 4px;
+                border-radius: 5px;
+                box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+                opacity: 0;
+                pointer-events: none;
+                transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            }
+        }
+        
+        .wrapper{
+          position:absolute;
+          bottom: -200%;
+          left:35%;
+          color: white;
+          font-size:2vw;
+        }
+        
+        .tab-list{
+          position:absolute;
+        
+          color: white;
+          font-size: 1.3vw;
+          text-align: left;
+          bottom:  -270%;
+          background-color: #ffe6e6;
+          width: 100%;
+          bottom: -300%;
+          border-style: hidden;
+        font-display: white;
+        text-decoration: none;
+        font-size: 1.5vw;
+        font-family: sans-serif;
+        font-display: #ffffff;
+        color: white;
+        text-decoration: none;
+        border-bottom: 15px;
+        list-style:none;
+        border-style: hidden;
+        border-radius: 10px;
+        font-family: white;
+        
+        }
+        
+        .tab-lists{
+          color: white;
+          font-size: 1.2vw;
+          font-weight: 600;
+        }
+        
+        .product-list{
+          position: absolute;
+          font-size: 1.3vw;
+          bottom:40%;
+          left: 30%;
+          border-style: hidden;
+        font-display: white;
+        text-decoration: none;
+        font-size: 1.5vw;
+        font-family: sans-serif;
+        font-display: #ffffff;
+        color: white;
+        text-decoration: none;
+        border-bottom: 15px;
+        list-style:none;
+        border-style: hidden;
+        border-radius: 10px;
+        font-family: white;
+        
+        
+        }
+
+        </style>
+
+
+  </body>
+</html>
