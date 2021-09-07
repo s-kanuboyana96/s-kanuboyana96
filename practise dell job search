@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Job search</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div class="nav-wrapper">
+      <ul class="nav-list">
+        <li><a href="#"> <img src="images1.png" width="50%"></a></li>
+        <li><a href="join talent network.html"> <img src="email-icon.png" width="30"> Join Our Talent Network</a></li>
+        <li><a href="saved job.html"> <img src="download1.png" width="30">Saved Job</a></li>
+        </ul>
+
+
+  </div>
+
+
+  <div class="featured-wrapper">
+    <ul class="nav-list"
+    <li>
+    <a href="#">Careers</a>
+    <td><a href="#">Life at Dell</a></td>
+     <td>
+         <select class>
+           <optgroup>
+           <a href="#"><option value="">How We Work and Lead</option></a>
+             <option>Who We Are</option>
+             <option>How We Hire</option>
+             <option>FAQs</option>
+
+           </optgroup>
+
+         </select>
+
+     </td>
+
+     <td><a href="#">Working at Dell</a></td>
+      <td>
+          <select class>
+            <optgroup>
+              <option>Why Work Here</option>
+              <option>Who We Are</option>
+              <option>How We Hire</option>
+              <option>FAQs</option>
+
+            </optgroup>
+
+          </select>
+          <td><a href="#">Our Oppurtunity</a></td>
+           <td>
+               <select class>
+                 <optgroup>
+                   <option>Why Work Here</option>
+                   <option>Who We Are</option>
+                   <option>How We Hire</option>
+                   <option>FAQs</option>
+
+                 </optgroup>
+
+               </select>
+<ul>
+  </div>
+
+    <div class="background-image">
+      <img id="background-image" src="138678336_10158888725855883_858927711806556355.jpg" width="100%">
+    </div>
+   <hr class="line-container"width="100">
+<div class="head-container"
+   <h1 id="caption-1">Driven by technology. <br>Dedicated to our people.</h1>
+
+   </div>
+
+   <div class="wrapper-container">
+     <ul class="wrap-list">
+     <p>Keyword</p>
+     <input type="text" name="Keyword" placeholder="Try 'Remote' ">
+     <p>Location</p>
+     <input type="text" name="Location" placeholder="City ,State ,Zip ">
+     <button id="Search-button" type="button" name="button">Search Job</button>
+
+     <button id="military search-button" type="button" name="button">Military Search Tool</button>
+     </ul>
+     </div>
+
+
+<br>
+<br>
+
+  <section>
+     <a href="#">>Back To The Result</a>
+
+        <div class="para-list">
+          <p class="para-class">Java/J2EE Full Stack Principal Software <br>
+             Engineer Dell Digital.  </p></div>
+         <div class="slide-ist">
+           <ul class="slide-list">
+          <li><img src="download3.png"width="30">Hyderabad , India </li>
+          <li><img src="download4.png"width="30">08/12/2021 </li>
+          <li><img src="download5.png"width="30">R086810</li>
+
+         <button id="Apply-button" type="button" name="button">Apply Job</button>
+        <button id="Saved-button" type="button" name="button">Saved Job</button>
+
+      </ul>
+  </section>
+
+  <div class="span-container">
+
+       <ul class="span-container">
+         <li> <a href="#">Ovwerview </a></li>
+          <li> <a href="#">Sucess Profile </a></li>
+           <li> <a href="#">Responsibilities </a></li>
+            <li> <a href="#">Map</a></li>
+             <li> <a href="#">Key Benfits </a></li>
+              <li> <a href="#">Culture </a></li>
+       </ul>
+
+
+  </div>
+<br>
+<br>
+<div class="input-container">
+  <h2>Overview</h2>
+  <p>We believe that progress lives at the intersection of technology and humanity, and that our role is to bring innovation to people
+     everywhere todrive progress around the world. Every member of our team plays a critical role in bringing our purpose to life
+      — through our workpassion and commitment to do the absolute best we can for our company, our customers and each other.</p>
+
+      <h2>Success Profile</h2>
+      <p>What makes a successful Software Engineer? <br>
+      Check out the top traits we’re looking for and see if you have the right mix.</p>
+
+</div>
+
+<style media="screen">
+body{
+  margin: auto;
+}
+
+.nav-wrapper{
+  background-color:#000080;
+  padding: 1px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.nav-list{
+  background-color:#FCFBFC;
+list-style-type: none;
+padding:5px;
+display: flex;
+align-items: stretch;
+justify-content: space-around;
+
+}
+.featured-wrapper{
+  background-color: #FCFBFC;
+  padding: 5px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.button-container{
+  background-color:#0000FF;
+  border: none;
+  color: white;
+  padding: 7px 12px;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.military-button{
+  background-color:#000080;
+  border: none;
+  color: white;
+  padding: 7px 12px;
+  text-align: center;
+  float: right;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#caption-1{
+  position:absolute;
+  top:40%;
+  left:15%;
+  color: white;
+  font-size: 4vw;
+}
+
+.wrap-list{
+  background-color:	#3289ff;
+  padding:5px;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  justify-content: space-around;
+}
+.wrapper-container{
+
+  padding: 1px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+}
+
+.para-list{
+  float: left 10%;
+  padding:5px;
+  font-size: 2vw;
+  padding: 5px;
+}
+
+
+.slide-list{
+list-style-type: none;
+padding:5px;
+display: flex;
+align-items: stretch;
+padding: 1px;
+width: 100%;
+position: sticky;
+top: 0;
+z-index: 1;
+justify-content:space-around;
+}
+
+.Apply-button a:hover{
+  color:#4000ff;
+}
+
+.span-container{
+  list-style-type: none;
+  background-color: #00ffff;
+  font-size: 2vw;
+
+  display: flex;
+  align-items: stretch;
+
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  justify-content:space-around;
+}
+
+
+.input-container{
+  text-align: center;
+  font-size:1.2vw;
+  background-color:#FCFBFC;
+}
+</style>
+
+
+
+  </body>
+</html>
