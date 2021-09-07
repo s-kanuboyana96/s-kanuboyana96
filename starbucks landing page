@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>StarBucks website landing page</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="script.js" href="script.js">
+  </head>
+  <body>
+    <section>
+       <div class="circle"> </div>
+      <header>
+        <a href="#"><img src="logo.png" class="logo" width="50%"></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+         <li><a href="#">Menu</a></li>
+         <li><a href="#">What's New</a></li>
+         <li><a href="#">Contact</a></li>
+
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>It's not a coffee <br>It's <span>Starbucks</span></h2>
+          <br>
+          <p>, Starbucks began a "skinny" line of drinks, offering lower-calorie and sugar-free versions of the company's offered drinks that use skim milk,<br> and can be sweetened by a choice of natural sweeteners (such as raw sugar, agave syrup, or honey),<br> artificial sweeteners (such as Sweet'N Low, Splenda, Equal), or one of the company's sugar-free syrup flavors</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="imagebox">
+          <img src="img-1.png" alt="">
+
+        </div>
+
+      </div>
+      <ul class="thumb">
+        <li><img src="thumb1.png"  onclick="imgSlider('img1.png');changeCircleColor(#017143)"></li>
+        <li><img src="thumb2.png"  onclick="imgSlider('img2.png');changeCircleColor(#eb7495)"></li>
+        <li><img src="thumb3.png"  onclick="imgSlider('img3.png');changeCircleColor(#d752b1)"></li>
+      </ul>
+      <ul class="sci">
+        <li><a href="#"><img src="facebook (1).png"></a></li>
+        <li><a href="#"><img src="instagram (1).png"></a></li>
+        <li><a href="#"><img src="twitter (1).png"></a></li>
+
+      </ul>
+    </section>
+
+    <style media="screen">
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family:'poppins' ,  sans-serif;
+    }
+    
+    section{
+      position: absolute;
+      width: 100%;
+      min-height: 100vh;
+      padding: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #fff;
+    }
+    header{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    header.logo{
+      position: relative;
+      max-width: 80px;
+    }
+    
+    header ul{
+      position: relative;
+      display: flex;
+    }
+    
+    header ul li{
+      list-style-type: none;
+    }
+    
+    header ul li a{
+      display: inline-block;
+      color: #333;
+      font-weight: 400;
+      margin-left: 40px;
+      text-decoration: none;
+    }
+    
+    .content{
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    
+    }
+    
+    
+    
+    .content .textBox{
+      position: relative;
+      max-width: 600px;
+    }
+    
+    .content .textBox h2{
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 400;
+    }
+    
+    .content .textBox h2 span{
+      font-weight: 900em;
+      font-size: 1.2em;
+      color: #017143;
+    }
+    
+    .content .textBox p{
+      color: #333;
+    }
+    
+    .content .textBox a{
+      display: inline-block;
+      margin-top: 20px;
+      padding: 8px 20px;
+      background: #017143;
+      color: #fff;
+      border-radius: 40px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      text-decoration: none;
+    }
+    
+    .content .imagebox{
+      width: 600px;
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 50px;
+      margin-top: 50px;
+    
+    }
+    
+    .content.imagebox img{
+      max-width: 340px;
+    }
+    
+    .thumb{
+      position: absolute;
+      left: 50%;
+      bottom: 20px;
+      transform: translate(-50%);
+      display: flex;
+    }
+    
+    .thumb li{
+      list-style-type: none;
+      margin: 0 20px;
+      display: inline-block;
+      cursor: pointer;
+    }
+    
+    .thumb li img{
+      max-width: 60px;
+    }
+    
+    .thumb li:hover{
+      transform: translate(-15%);
+    }
+    
+    .sci{
+      position: absolute;
+      top: -50%;
+      right: 30%;
+      transform: translate(-50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .circle{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #017143;
+      clip-path: circle(600px at right 800px);
+    
+    }
+
+    </style>
+    <script type="text/javascript">
+     function functionName imgSlider(anything) {
+       document.querySelector('.Starbucks').src = anything;
+
+
+     } imgSlider(anything) {
+      document.querySelector('.Starbucks').src = anything;
+
+      }
+
+      function changeCircleColor(color){
+        const circle = document.querySelector('.circle');
+      }
+
+    </script>
+
+
+  </body>
+</html>
